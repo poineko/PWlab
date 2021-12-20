@@ -33,11 +33,11 @@ ol, ul, img, p {
         background-color: #7267CB;
 }
 
-li {
+.navi li {
         float: left;
 }
 
-li a {
+.navi li a {
         display: block;
         color: white;
         text-align: center;
