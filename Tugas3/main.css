@@ -11,3 +11,7 @@ hr {
         width: 30%;
         border-color: #71C9CE;
 }
+
+h1, h2, h3, h4 {
+        text-align:center;
+      }
