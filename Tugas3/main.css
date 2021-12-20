@@ -45,6 +45,10 @@ ol, ul, img, p {
         text-decoration: none;
 }
 
-.navi ul :last-child{
+.navi ul :last-child {
         float: right;
+}
+
+.navi li:hover {
+        background-color: black;
 }
