@@ -134,3 +134,54 @@ tr :hover {
         width: 33.33%;
         padding: 25px;
 }
+
+@media (max-width: 850px){
+        .my-portofolio img {
+                box-sizing: border-box;
+                width: 500%;
+                padding: 25px;
+        }
+}
+
+@media (max-width: 500px){
+        .my-portofolio img {
+                box-sizing: border-box;
+                width: 100%;
+                padding: 25px;
+        }
+}
+
+input {
+        width : 100%;
+        padding : 12px 20px;
+        margin : 8px 0;
+        box-sizing : border-box;
+}
+
+textarea {
+        width : 100%;
+        height : 150px;
+        padding : 12px 20px;
+        box-sizing : border-box;
+        resize : vertical;
+}
+
+input  button {
+        background-color: #4CAF50;
+        border: none;
+        color : white;
+        padding : 16px 32px;
+        text-decoration : none;
+        margin : 4px 2px;
+        cursor : pointer;
+}
+
+input submit {
+        background-color: #4CAF50;
+        border: none;
+        color : white;
+        padding : 16px 32px;
+        text-decoration : none;
+        margin : 4px 2px;
+        cursor : pointer;
+}
