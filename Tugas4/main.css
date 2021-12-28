@@ -185,3 +185,19 @@ input submit {
         margin : 4px 2px;
         cursor : pointer;
 }
+
+.sidebar {
+        display: block;
+        color: #000;
+}
+
+.grid-container {
+        display: grid;
+        grid-template-areas: 100px;
+}
+
+.article-title {
+        list-style-type : none;
+        margin : 0;
+        padding : 0;
+}
