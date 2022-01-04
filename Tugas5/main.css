@@ -1,0 +1,203 @@
+body {
+        background-color : #CBF1F5;
+}
+
+hr {
+        margin-top:50px;
+        margin-bottom:50px;
+        border-width:15px;
+        border-style:none;
+        border-top-style:dotted;
+        width: 30%;
+        border-color: #71C9CE;
+}
+
+h1, h2, h3, h4 {
+        text-align:center;
+}
+
+ol, ul, img, p {
+        display:block;
+        max-width:500px;
+        margin-top:0;
+        margin-bottom: 0;
+        margin-right: auto;
+        margin-left: auto;
+}
+
+.navi {
+        position: sticky;
+        top: 0;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #7267CB;
+}
+
+.navi li {
+        float: left;
+}
+
+.navi li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+
+.navi ul :last-child {
+        float: right;
+}
+
+.navi li:hover {
+        background-color: black;
+}
+
+* {
+        margin: 0;
+        padding: 0;
+}
+
+table, tr, td {
+        border: 1px solid black;
+}
+
+table {
+        max-width: 500px;
+        margin: 0 auto;
+        border-collapse: collapse;
+}
+
+th {
+        background-color: #333;
+        color: white;
+}
+
+th, td {
+        padding: 15px;
+        text-align: left;
+}
+
+tr :hover {
+        background-color: #6E3CBC;
+}
+
+.footer {
+        background-color: #333;
+        padding: 10px;
+        text-align: center;
+        color: white;
+        margin-top: 15px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+}
+
+.form-register {
+        position: static;
+        margin-bottom: 100px;
+
+}
+
+.content-form {
+        max-width: 70%;
+        margin: auto;
+}
+
+.form-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+        margin-bottom: 100px;
+}
+
+.form-contact {
+        display :flex ;
+        justify-content :center;
+        align-items :center;
+        margin-bottom :100px;
+}
+
+.my-portofolio {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+}
+
+.my-portofolio img {
+        box-sizing: border-box;
+        width: 33.33%;
+        padding: 25px;
+}
+
+@media (max-width: 850px){
+        .my-portofolio img {
+                box-sizing: border-box;
+                width: 500%;
+                padding: 25px;
+        }
+}
+
+@media (max-width: 500px){
+        .my-portofolio img {
+                box-sizing: border-box;
+                width: 100%;
+                padding: 25px;
+        }
+}
+
+input {
+        width : 100%;
+        padding : 12px 20px;
+        margin : 8px 0;
+        box-sizing : border-box;
+}
+
+textarea {
+        width : 100%;
+        height : 150px;
+        padding : 12px 20px;
+        box-sizing : border-box;
+        resize : vertical;
+}
+
+input  button {
+        background-color: #4CAF50;
+        border: none;
+        color : white;
+        padding : 16px 32px;
+        text-decoration : none;
+        margin : 4px 2px;
+        cursor : pointer;
+}
+
+input submit {
+        background-color: #4CAF50;
+        border: none;
+        color : white;
+        padding : 16px 32px;
+        text-decoration : none;
+        margin : 4px 2px;
+        cursor : pointer;
+}
+
+.sidebar {
+        display: block;
+        color: #000;
+}
+
+.grid-container {
+        display: grid;
+        grid-template-areas: 100px;
+}
+
+.article-title {
+        list-style-type : none;
+        margin : 0;
+        padding : 0;
+}
