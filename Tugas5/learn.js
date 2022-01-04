@@ -55,33 +55,71 @@
 // console.log('________________')
 
 // Latihan 5.5. Membuat Fungsi
-function persegi() {
-        var panjang = 5
-        var lebar = 6
-        var luas = panjang * lebar
-        console.log(luas)
-}
-var hasil = persegi()
+// function persegi() {
+//         var panjang = 5
+//         var lebar = 6
+//         var luas = panjang * lebar
+//         console.log(luas)
+// }
+// var hasil = persegi()
+// console.log('________________')
+
+// function luas(alas, tinggi){
+//         let luas_segitiga = 0.5 * alas * tinggi;
+//         return `luas segitiga yang mempunyai alas: ${alas} dan tinggi ${tinggi} adalah ${luas_segitiga}`
+// }
+// let alas = 5
+// let tinggi = 10
+// console.log(luas(alas, tinggi))
+// console.log('________________')
+
+// function volume(p, l, t){
+//         let V = p * l * t;
+//         return V;
+// }
+// let p = 10
+// let l = 5
+// let t = 2
+// let volumenya = volume(p, l, t)
+// console.log('mempunyai volume: '+ volumenya)
+// console.log('________________')
+
+
+//Latihan 5.6. Bermain dengan Array
+
+let colors = ['anjing', 'kucing', 'dinosaurus'];
+
+console.log(colors.toString());
+console.log(colors.join('/'));
 console.log('________________')
 
-function luas(alas, tinggi){
-        let luas_segitiga = 0.5 * alas * tinggi;
-        return `luas segitiga yang mempunyai alas: ${alas} dan tinggi ${tinggi} adalah ${luas_segitiga}`
-}
-let alas = 5
-let tinggi = 10
-console.log(luas(alas, tinggi))
+let firstNumbers = [11, 12, 13];
+let secondNumbers = [14, 15, 16];
+let mergedNumbers = firstNumbers.concat(secondNumbers);
+console.log(mergedNumbers);
 console.log('________________')
 
-function volume(p, l, t){
-        let V = p * l * t;
-        return V;
-}
-let p = 10
-let l = 5
-let t = 2
-let volumenya = volume(p, l, t)
-console.log('mempunyai volume: '+ volumenya)
+let devices= ['mobile', 'laptop', 'computer'];
+devices.push('tablet');
+console.log(devices);
+console.log('________________')
+devices.pop('computer');
+console.log(devices);
+console.log('________________')
+devices.shift('mobile');
+console.log(devices);
+console.log('________________')
+devices.unshift('tablet');
+console.log(devices);
+console.log('________________')
+devices.sort();
+console.log(devices);
+console.log('________________')
+console.log(devices.reverse());
+console.log('________________')
+
+
+
 
 // // menampilkan informasi dalam bentuk alert pada window
 // window.alert("Angka favorit saya adalah : " + myNumber)
