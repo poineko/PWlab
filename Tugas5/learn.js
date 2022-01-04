@@ -87,36 +87,60 @@
 
 //Latihan 5.6. Bermain dengan Array
 
-let colors = ['anjing', 'kucing', 'dinosaurus'];
+// let colors = ['anjing', 'kucing', 'dinosaurus'];
 
-console.log(colors.toString());
-console.log(colors.join('/'));
+// console.log(colors.toString());
+// console.log(colors.join('/'));
+// console.log('________________')
+
+// let firstNumbers = [11, 12, 13];
+// let secondNumbers = [14, 15, 16];
+// let mergedNumbers = firstNumbers.concat(secondNumbers);
+// console.log(mergedNumbers);
+// console.log('________________')
+
+// let devices= ['mobile', 'laptop', 'computer'];
+// devices.push('tablet');
+// console.log(devices);
+// console.log('________________')
+// devices.pop('computer');
+// console.log(devices);
+// console.log('________________')
+// devices.shift('mobile');
+// console.log(devices);
+// console.log('________________')
+// devices.unshift('tablet');
+// console.log(devices);
+// console.log('________________')
+// devices.sort();
+// console.log(devices);
+// console.log('________________')
+// console.log(devices.reverse());
+// console.log('________________')
+
+// Latihan 5.7. Bermain dengan Objek
+
+var waifu = {
+        // properti
+        type: "tsundere", 
+        eyes: "kawai", 
+        skin: "Sekushī",
+        voice: "ara-ara ~",
+        body: "uwu",
+    
+        // method
+        touch: function(){
+                console.log("tertouchyy dia :3")
+        }
+};
+waifu.touch();
 console.log('________________')
 
-let firstNumbers = [11, 12, 13];
-let secondNumbers = [14, 15, 16];
-let mergedNumbers = firstNumbers.concat(secondNumbers);
-console.log(mergedNumbers);
+var sound = waifu['voice'];
+console.log(sound);
 console.log('________________')
 
-let devices= ['mobile', 'laptop', 'computer'];
-devices.push('tablet');
-console.log(devices);
-console.log('________________')
-devices.pop('computer');
-console.log(devices);
-console.log('________________')
-devices.shift('mobile');
-console.log(devices);
-console.log('________________')
-devices.unshift('tablet');
-console.log(devices);
-console.log('________________')
-devices.sort();
-console.log(devices);
-console.log('________________')
-console.log(devices.reverse());
-console.log('________________')
+
 
 
 
